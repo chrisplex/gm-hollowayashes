@@ -1,0 +1,210 @@
+{
+    "id": "13eb1d21-4c85-4eb4-8b7e-3a96d14878b9",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_changeRoom_BASEMENT",
+    "eventList": [
+        {
+            "id": "92312db3-7bf8-4dd9-99a7-de4b2c01bc00",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "13eb1d21-4c85-4eb4-8b7e-3a96d14878b9"
+        },
+        {
+            "id": "7ceca7f2-5e97-41e8-bd4e-0b38dcb53cf2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "13eb1d21-4c85-4eb4-8b7e-3a96d14878b9"
+        },
+        {
+            "id": "c5b55270-8e26-4596-bcb4-75796344cf3a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "13eb1d21-4c85-4eb4-8b7e-3a96d14878b9"
+        },
+        {
+            "id": "c46ff208-fd99-46fb-a687-9cc7a60982d1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "13eb1d21-4c85-4eb4-8b7e-3a96d14878b9"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": true,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": [
+        {
+            "id": "74d5c735-5780-4b03-bf39-3e2bb3b895e6",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "b2c1edc5-060e-4b5d-b29b-11b9eca837c8",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 64,
+            "y": 0
+        },
+        {
+            "id": "7d607839-8860-4a7b-9981-3335649ed8cf",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 64,
+            "y": 64
+        },
+        {
+            "id": "c19e16df-ef60-4ed9-bc34-68cee09b6137",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 64
+        }
+    ],
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "6037e19d-4c62-42b9-a72a-29538a3c0d1a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "targetRoom",
+            "varType": 1
+        },
+        {
+            "id": "5b5c40a6-84f5-482e-a37b-2133fb56a99a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "player_targetx",
+            "varType": 1
+        },
+        {
+            "id": "7321662d-fca5-474b-bbcb-987b5e7337d0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "player_targety",
+            "varType": 1
+        },
+        {
+            "id": "91116c60-025b-44e2-bba5-39e0dd5ccbcd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": " Open Door",
+            "varName": "label",
+            "varType": 2
+        },
+        {
+            "id": "75bc17f7-eefd-48ae-8c44-73d4819e3ac7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": " Door is locked. You have to find the key",
+            "varName": "text",
+            "varType": 2
+        },
+        {
+            "id": "8cc07faf-8b16-4dfc-b7dd-3ca796328e24",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Open Door",
+            "varName": "label2",
+            "varType": 2
+        },
+        {
+            "id": "333ff100-9631-46f1-9b2f-ce85bb0820b7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "Door unlocked",
+            "varName": "text2",
+            "varType": 2
+        },
+        {
+            "id": "c89637cd-6ef7-4e48-9000-4bf0ad4bbb9b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "true",
+            "varName": "switcherd",
+            "varType": 4
+        }
+    ],
+    "solid": false,
+    "spriteId": "dad35eff-167c-4acd-995b-2cc63829753f",
+    "visible": true
+}

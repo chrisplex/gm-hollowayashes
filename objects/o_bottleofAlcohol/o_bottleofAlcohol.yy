@@ -1,0 +1,111 @@
+{
+    "id": "7e4802e3-da70-4438-93b1-cc1155279e74",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_bottleofAlcohol",
+    "eventList": [
+        {
+            "id": "d0fffbb7-453e-4afe-8df6-61e45b0bb59e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "7e4802e3-da70-4438-93b1-cc1155279e74"
+        },
+        {
+            "id": "8d75a6a4-55fb-45eb-b4a2-6837eb3c79d8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "7e4802e3-da70-4438-93b1-cc1155279e74"
+        },
+        {
+            "id": "877f9622-f496-4a9d-88a5-e41cc3769a44",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "7e4802e3-da70-4438-93b1-cc1155279e74"
+        },
+        {
+            "id": "bed899c3-4ca6-4a8b-9bb8-1a11ecc8f4c1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "7e4802e3-da70-4438-93b1-cc1155279e74"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "4f3d9328-a7c2-4dae-a9e9-ee75c35d507b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "variable_name",
+            "varType": 0
+        },
+        {
+            "id": "cdfa52bf-3e41-4d7f-97c7-a9f66d2002db",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "global.item_bottle_label",
+            "varName": "label",
+            "varType": 4
+        },
+        {
+            "id": "102d8a47-682d-49ed-9b0e-7ad23e38720d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "global.item_bottle",
+            "varName": "text[0]",
+            "varType": 4
+        }
+    ],
+    "solid": false,
+    "spriteId": "7b7545d0-5056-4547-9edc-2d449857ed28",
+    "visible": true
+}
